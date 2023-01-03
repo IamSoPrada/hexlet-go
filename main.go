@@ -1,9 +1,10 @@
 package main
 
 import (
+	"./greeting"
 	"fmt"
 )
 
 func main() {
-	fmt.Println("Hello, Hexlet!")
+	fmt.Println(greeting.Hello())
 }
